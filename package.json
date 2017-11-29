@@ -1,0 +1,15 @@
+{
+  "name": "zaloni-icon",
+  "version": "0.0.1",
+  "description": "Zaloni font generator",
+  "scripts": {
+    "start": "icon-font-generator svg/*.svg -n zaloni-icon -p zi --htmltp out/custom-html.hbs -o out"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "glob": "^7.1.2",
+    "webfont": "^7.1.4",
+    "webfonts-generator": "^0.4.0"
+  }
+}
